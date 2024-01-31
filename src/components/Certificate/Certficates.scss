@@ -1,0 +1,40 @@
+.certificate-slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(180deg,#0c0c1d, #111132);
+    pointer-events: auto;
+
+
+
+  }
+  
+  .certificate-slider-card {
+    width: 850px;
+    height: 750px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .certificate-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .certificate-item img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .certificate-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
