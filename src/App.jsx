@@ -9,15 +9,15 @@ import Contact from "./components/contact/Contact";
 
 const App = () => {
   return <div>
-    <section>
+    <section id="Home">
       <Navbar/>
       <Hero />
     </section>
     <section id="Services"> <Parallax type="services"/> </section>
     <section id="Certificates"><CertificateSlider /></section>
-    <section id="Portfolio"> <Parallax type="portfolio"/> </section>
+    <section id="Projects"> <Parallax type="portfolio"/> </section>
   <Portfolio />
-  <section id="skills"><Skills /></section> 
+  <section id="Skills"><Skills /></section> 
 
     <section id="Contact"><Contact /></section> 
 

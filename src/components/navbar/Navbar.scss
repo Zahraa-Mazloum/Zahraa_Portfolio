@@ -1,9 +1,20 @@
-.navbar{
+.navbar {
     height: 100px;
-background-color: white;
-color:#494543;
+    background-color: white;
+    color: #494543;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 1000; 
+    transition: background-color 0.3s ease;
 
-    
+    button{
+        background: none;
+        border: none;
+        font-size: 25px;
+        color: inherit;
+        cursor: pointer;
+    }
 
     .wrapper{
         max-width: 1366px;
